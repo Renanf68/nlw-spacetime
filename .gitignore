@@ -1,0 +1,52 @@
+*/node_modules/
+*/uploads
+
+mobile/.expo/
+mobile/dist/
+mobile/npm-debug.*
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+mobile/*.orig.*
+mobile/web-build/
+
+# macOS
+*/.DS_Store
+
+# Temporary files created by Metro to check the health of the file watcher
+mobile/.metro-health-check*
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+web/.pnp
+web/.pnp.js
+
+# testing
+web/coverage
+
+# next.js
+web/.next/
+web/out/
+
+# production
+web/build
+web/*.pem
+
+# debug
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+
+# local env files
+*/.env*.local
+*/.env
+
+# vercel
+web/.vercel
+
+# typescript
+web/*.tsbuildinfo
+web/next-env.d.ts
